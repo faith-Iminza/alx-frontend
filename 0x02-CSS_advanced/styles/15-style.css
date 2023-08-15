@@ -1,0 +1,16 @@
+:root {
+  /* ... Your existing custom properties ... */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /* Universal box-sizing rule */
+}
+
+html {
+  /* ... Your existing HTML styles ... */
+}
+
+/* The rest of your styles go here */
+

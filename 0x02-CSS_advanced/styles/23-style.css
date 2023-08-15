@@ -1,0 +1,15 @@
+/* Styles for .footer-address */
+.footer-address {
+  color: var(--text-color); /* Set text color to the text-color property */
+}
+
+/* Styles for .social-link */
+.social-link {
+  display: block; /* Render as a block element */
+}
+
+/* Styles for .social-link including svg children */
+.social-link svg {
+  fill: var(--text-color); /* Fill color of svg children with the text-color variable */
+}
+

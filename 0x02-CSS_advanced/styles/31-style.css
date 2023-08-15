@@ -1,0 +1,18 @@
+/* ... Your existing styles ... */
+
+/* Styles for card-quote inside card-testimonial */
+.card-testimonial .card-quote {
+  position: relative; /* Relative position to its parent */
+}
+
+/* Styles for ::before pseudo-element of card-quote inside card-testimonial */
+.card-testimonial .card-quote::before {
+  content: "\201C"; /* Set content to the value \201C */
+  position: absolute; /* Absolutely position the selected elements */
+  top: -4.5rem; /* Vertical position */
+  left: -1rem; /* Horizontal position from the left */
+  color: #efeded; /* Foreground color */
+  font-size: 10rem; /* Font size */
+  z-index: -1; /* Set z-order to -1 */
+}
+

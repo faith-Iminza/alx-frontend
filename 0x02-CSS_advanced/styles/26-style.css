@@ -1,0 +1,21 @@
+/* ... Your existing styles ... */
+
+/* Styles for .card-testimonial */
+.card-testimonial {
+  text-align: center; /* Center align the text */
+}
+
+/* Styles for card-avatar inside card-testimonial */
+.card-testimonial .card-avatar {
+  border-radius: 50%; /* Round the radius on all sides */
+  width: 10rem; /* Set width to 10x the root element */
+  height: 10rem; /* Set height to 10x the root element */
+}
+
+/* Styles for <cite> tag inside card-quote inside card-testimonial */
+.card-testimonial .card-quote cite {
+  display: block; /* Render as a block level element */
+  padding-top: var(--font-size-medium); /* Pad the top with 1x the root element */
+  color: var(--color-primary); /* Set foreground color to the value of color-primary variable */
+}
+
